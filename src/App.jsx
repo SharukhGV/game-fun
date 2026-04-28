@@ -1,7 +1,7 @@
 // TrackingGame.jsx
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 
-const TrackingGame = () => {
+const App = () => {
   // ---------- Core state ----------
   const [distance, setDistance] = useState(200);
   const [presence, setPresence] = useState(false);
@@ -417,4 +417,4 @@ const victoryStyles = `
   .victory-btn.secondary { background: #221c2e; border-color: #ff66cc; color: #ffaaff; }
 `;
 
-export default TrackingGame;
+export default App;
